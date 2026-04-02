@@ -1,0 +1,21 @@
+.coh-resp-img-ratio-wrapper .coh-resp-img {
+  width: 100%;
+}
+.lazyload,
+.lazyloading {
+  opacity: 0;
+}
+.lazyloaded {
+  opacity: 1;
+  -webkit-transition: opacity 300ms;
+       -o-transition: opacity 300ms;
+          transition: opacity 300ms;
+}
+.coh-resp-img-ratio-wrapper {
+  position: relative;
+}
+img[data-sizes="auto"] {
+  display: block;
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
